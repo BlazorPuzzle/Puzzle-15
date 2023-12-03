@@ -1,0 +1,21 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<h1>Hello, world!</h1>
+
+<p>
+    This is a Blazor Web App with the global Interactive mode set to Server.
+</p>
+<p>
+    The OnInitialized method is called twice. Why?
+    How can we prevent this?
+</p>
+
+@code {
+    protected override void OnInitialized()
+    {
+        // put a break point here.
+        base.OnInitialized();
+    }
+}
